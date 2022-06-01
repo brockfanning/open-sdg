@@ -466,6 +466,26 @@
             layer.on('mouseover', mouseoverHandler);
             layer.on('mouseout', mouseoutHandler);
           }
+          else if (feature.geometry.type === 'Point') {
+            layer.on('mouseover', pointMouseoverHandler);
+            layer.on('mouseout', pointMouseoutHandler);
+          }
+        }
+        // Event handler for mouseover.
+        function pointMouseoverHandler(e) {
+          var layer = e.target;
+          var tooltipLines = Object.values(layer.feature.properties);
+          var tooltipContent = tooltipLines.join('<br>');
+          layer.bindTooltip(tooltipContent, {
+            permanent: true,
+          }).addTo(plugin.map);
+        }
+        // Event handler for mouseout.
+        function pointMouseoutHandler(e) {
+          var layer = e.target;
+          if (layer.getTooltip()) {
+            layer.unbindTooltip();
+          }
         }
         // Event handler for click/touch.
         function clickHandler(e) {
