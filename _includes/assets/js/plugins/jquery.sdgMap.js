@@ -474,7 +474,9 @@
         // Event handler for mouseover.
         function pointMouseoverHandler(e) {
           var layer = e.target;
-          var tooltipLines = Object.values(layer.feature.properties);
+          var tooltipLines = Object.entries(layer.feature.properties).map(function(entry) {
+            return entry[0] + ': ' + entry[1];
+          });
           var tooltipContent = tooltipLines.join('<br>');
           layer.bindTooltip(tooltipContent, {
             permanent: true,
