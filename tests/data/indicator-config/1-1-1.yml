@@ -55,6 +55,9 @@ page_content: >
 permalink: ''
 precision: []
 progress_status: target_achieved
+related_indicators:
+  - 1.2.1
+  - 1.2.2
 reporting_status: complete
 sort: ''
 standalone: false
