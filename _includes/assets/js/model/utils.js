@@ -34,7 +34,7 @@ function dataHasGeoCodes(columns) {
  * @return {boolean}
  */
 function dataHasGlobalValues(reportingTypes) {
-  return reportingTypes.includes("Global");
+  return reportingTypes.includes(REPORTINGTYPE_GLOBAL);
 }
 
 /**

@@ -186,7 +186,7 @@ var indicatorModel = function (options) {
 
   this.updateFieldStates = function(selectedFields) {
     this.selectedFields = helpers.removeOrphanSelections(selectedFields, this.edgesData);
-    this.allowedFields = helpers.getAllowedFieldsWithChildren(this.selectableFields, this.edgesData, selectedFields).filter(e => (e != 'Reporting type'));
+    this.allowedFields = helpers.getAllowedFieldsWithChildren(this.selectableFields, this.edgesData, selectedFields).filter(e => (e != helpers.REPORTINGTYPE_COLUMN));
     this.fieldItemStates = helpers.getUpdatedFieldItemStates(this.fieldItemStates, this.edgesData, selectedFields, this.validParentsByChild);
     this.onSelectionUpdate.notify({
       selectedFields: this.selectedFields,

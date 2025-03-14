@@ -206,7 +206,7 @@ var indicatorView = function (model, options) {
 
     $(OPTIONS.rootElement).on('click', '#clear', function () {
         MODEL.clearSelectedFields();
-        MODEL.selectedFields = [{field: "Reporting type", values: ["National"]}];
+        MODEL.selectedFields = [{field: MODEL.helpers.REPORTINGTYPE_COLUMN, values: [MODEL.helpers.REPORTINGTYPE_NATIONAL]}];
     });
 
     $(OPTIONS.rootElement).on('click', '#fields label', function (e) {

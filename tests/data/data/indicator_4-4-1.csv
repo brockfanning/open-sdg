@@ -1,5 +1,5 @@
-Year,Age,COMMENT_OBS,Reporting type,Value
-2008,,estimated,National,8.5
-2008,17 and under,estimated,National,12.8
-2008,,estimated,Global,20
-2008,17 and under,estimated,Global,25
+Year,Age,COMMENT_OBS,REPORTING_TYPE,Value
+2008,,estimated,N,8.5
+2008,17 and under,estimated,N,12.8
+2008,,estimated,G,20
+2008,17 and under,estimated,G,25

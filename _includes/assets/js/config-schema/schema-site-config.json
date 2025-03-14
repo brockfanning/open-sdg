@@ -217,6 +217,21 @@
                     "type": "string",
                     "title": "Series",
                     "description": "Field to reserve for the SDG series. Defaults to 'Series'."
+                },
+                "reportingtype": {
+                    "type": "string",
+                    "title": "Reporting type",
+                    "description": "Field to reserve for the reporting type (global or national). Defaults to 'REPORTING_TYPE'."
+                },
+                "reportingtype_global": {
+                    "type": "string",
+                    "title": "Reporting type - global",
+                    "description": "Field to reserve for the reporting type global value. Defaults to 'G'."
+                },
+                "reportingtype_national": {
+                    "type": "string",
+                    "title": "Reporting type - national",
+                    "description": "Field to reserve for the reporting type national value. Defaults to 'N'."
                 }
             }
         },
