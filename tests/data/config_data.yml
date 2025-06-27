@@ -43,6 +43,12 @@ map_layers:
 reporting_status_extra_fields:
   - un_custodian_agency
 
+field_status_pages:
+  - field: my_field_for_status
+    title: My title for the field status page
+    description: My description for the field status page
+    
+
 docs_subfolder: documentation
 
 datapackage:
