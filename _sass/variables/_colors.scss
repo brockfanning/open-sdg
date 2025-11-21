@@ -75,6 +75,58 @@ $status-border-inprogress-highContrast: 1px solid transparent !default;
 $status-border-notstarted-highContrast: 1px solid $color-light-highContrast !default;
 $status-border-notapplicable-highContrast: 1px solid $color-light-highContrast !default;
 
+$status-color-target-achieved: $color-light !default;
+$status-color-limited-progress: $color-light !default;
+$status-color-moderate-progress: $color-light !default;
+$status-color-substantial-progress: $color-light !default;
+$status-color-deterioration: $text-color !default;
+$status-color-not-available: $text-color !default;
+$status-backgroundColor-target-achieved: #2B2B2B !default;
+$status-backgroundColor-limited-progress: #757575 !default;
+$status-backgroundColor-moderate-progress: #757575 !default;
+$status-backgroundColor-substantial-progress: #757575 !default;
+$status-backgroundColor-deterioration: white !default;
+$status-backgroundColor-not-available: repeating-linear-gradient(135deg, $status-backgroundColor-inprogress, white 10px, $status-backgroundColor-inprogress 10px, white 20px) !default;
+$status-backgroundColor-inner-target-achieved: $status-backgroundColor-complete !default;
+$status-backgroundColor-inner-limited-progress: $status-backgroundColor-inprogress !default;
+$status-backgroundColor-inner-moderate-progress: $status-backgroundColor-inprogress !default;
+$status-backgroundColor-inner-substantial-progress: $status-backgroundColor-inprogress !default;
+$status-backgroundColor-inner-deterioration: $status-backgroundColor-notstarted !default;
+$status-backgroundColor-inner-not-available: rgba(255, 255, 255, 0.8) !default;
+
+$status-color-target-achieved-highContrast: $color-dark-highContrast !default;
+$status-color-limited-progress-highContrast: $color-light-highContrast !default;
+$status-color-moderate-progress-highContrast: $color-light-highContrast !default;
+$status-color-substantial-progress-highContrast: $color-light-highContrast !default;
+$status-color-deterioration-highContrast: $color-light-highContrast !default;
+$status-color-not-available-highContrast: $color-dark-highContrast !default;
+$status-backgroundColor-target-achieved-highContrast: $color-light-highContrast !default;
+$status-backgroundColor-limited-progress-highContrast: $color-medium-highContrast !default;
+$status-backgroundColor-moderate-progress-highContrast: $color-medium-highContrast !default;
+$status-backgroundColor-substantial-progress-highContrast: $color-medium-highContrast !default;
+$status-backgroundColor-deterioration-highContrast: $color-dark-highContrast !default;
+$status-backgroundColor-not-available-highContrast: $status-backgroundColor-notapplicable !default;
+$status-backgroundColor-inner-target-achieved-highContrast: $status-backgroundColor-complete-highContrast !default;
+$status-backgroundColor-inner-limited-progress-highContrast: $status-backgroundColor-inprogress-highContrast !default;
+$status-backgroundColor-inner-moderate-progress-highContrast: $status-backgroundColor-inprogress-highContrast !default;
+$status-backgroundColor-inner-substantial-progress-highContrast: $status-backgroundColor-inprogress-highContrast !default;
+$status-backgroundColor-inner-deterioration-highContrast: $status-backgroundColor-notstarted-highContrast !default;
+$status-backgroundColor-inner-not-available-highContrast: $status-backgroundColor-inner-notapplicable !default;
+
+$status-border-target-achieved: 1px solid transparent !default;
+$status-border-limited-progress: 1px solid transparent !default;
+$status-border-moderate-progress: 1px solid transparent !default;
+$status-border-substantial-progress: 1px solid transparent !default;
+$status-border-deterioration: 1px solid $color-dark !default;
+$status-border-not-available: 1px solid $color-dark !default;
+$status-border-target-achieved-highContrast: 1px solid transparent !default;
+$status-border-limited-progress-highContrast: 1px solid transparent !default;
+$status-border-moderate-progress-highContrast: 1px solid transparent !default;
+$status-border-substantial-progress-highContrast: 1px solid transparent !default;
+$status-border-deterioration-highContrast: 1px solid $color-light-highContrast !default;
+$status-border-not-available-highContrast: 1px solid $color-light-highContrast !default;
+
+
 $tag-color: $color-light !default;
 $tag-border: 1px solid transparent !default;
 $tag-backgroundColor: #707071 !default;
